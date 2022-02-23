@@ -60,6 +60,22 @@ public class CardGame {
         String response = match ? "Right guess": "No match";
         
         System.out.println(response);
+        
+        
+        
+        //i'm done!
+       printInfo("Ashmeet kaur kohli",19);
+        
+    }
+        
+	private static void printInfo(String name,int age) {
+		
+                     
+        System.out.println("My name is "+ name);
+        System.out.println("My age is "+ age);
+       
+		
+	}
     }
     
-}
+
